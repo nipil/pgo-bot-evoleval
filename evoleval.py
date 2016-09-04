@@ -216,7 +216,7 @@ class Evoleval():
 			pokes = self.pokemon_bag[p_id]
 			print u"* {0}".format(self.localize(p_id))
 			for poke in pokes:
-				print "** ({3:.2f}%) A/D/S={0}/{1}/{2} CP={4}".format(
+				print "** ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
 					poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
 
 
