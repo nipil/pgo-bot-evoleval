@@ -1,0 +1,144 @@
+= Evoleval report for inventory-test2
+
+== Evolution actions
+
+2 evolutions available, 26 seconds per, 52 seconds total, use 0.03 eggs
+
+|===
+|Pokemon|Transfer|Evolve|Missing
+
+|奇異種子
+|0
+|0
+|0
+
+|小火龍
+|0
+|0
+|0
+
+|綠毛蟲
+|2
+|0
+|0
+
+|獨角蟲
+|1
+|1
+|0
+
+|波波
+|3
+|1
+|0
+
+|小哥達
+|1
+|0
+|0
+
+|鬼斯
+|0
+|0
+|0
+
+|蛋蛋
+|0
+|0
+|0
+
+|獨角金魚
+|1
+|0
+|0
+|===
+
+== Pokemon details
+
+* 奇異種子
+** (0.24) A/D/S=6/5/0 CP=12
+* 小火龍
+** (0.67) A/D/S=10/10/10 CP=12
+* 綠毛蟲
+** (0.49) A/D/S=7/13/2 CP=10
+** (0.44) A/D/S=2/9/9 CP=10
+** (0.29) A/D/S=0/4/9 CP=14
+* 獨角蟲
+** (0.62) A/D/S=10/14/4 CP=10
+** (0.42) A/D/S=0/15/4 CP=25
+** (0.31) A/D/S=2/8/4 CP=35
+* 鐵殼蛹
+** (0.56) A/D/S=8/13/4 CP=10
+* 波波
+** (0.42) A/D/S=1/8/10 CP=24
+** (0.38) A/D/S=2/11/4 CP=24
+** (0.36) A/D/S=5/9/2 CP=10
+** (0.36) A/D/S=8/4/4 CP=59
+** (0.27) A/D/S=1/6/5 CP=39
+* 小哥達
+** (0.42) A/D/S=11/4/4 CP=36
+** (0.36) A/D/S=9/6/1 CP=35
+* 鬼斯
+** (0.84) A/D/S=13/12/13 CP=10
+* 蛋蛋
+** (0.73) A/D/S=10/12/11 CP=45
+* 獨角金魚
+** (0.73) A/D/S=6/14/13 CP=39
+** (0.62) A/D/S=13/7/8 CP=39
+
+== Pokemon bag inventory
+
+* 1 奇異種子, 0 奇異草, 0 奇異花 & 3 candies
+* 1 小火龍, 0 火恐龍, 0 噴火龍 & 3 candies
+* 0 車厘龜, 0 卡美龜, 0 水箭龜 & 0 candies
+* 3 綠毛蟲, 0 鐵甲蟲, 0 巴他蝶 & 9 candies
+* 3 獨角蟲, 1 鐵殼蛹, 0 大針蜂 & 12 candies
+* 5 波波, 0 比比鳥, 0 大比鳥 & 15 candies
+* 2 小哥達, 0 哥達 & 6 candies
+* 0 鬼雀, 0 魔雀 & 0 candies
+* 0 阿柏蛇, 0 阿柏怪 & 0 candies
+* 0 比卡超, 0 雷超 & 0 candies
+* 0 穿山鼠, 0 穿山王 & 0 candies
+* 0 Nidoran F, 0 尼美蘿, 0 尼美后 & 0 candies
+* 0 Nidoran M, 0 尼多利, 0 尼多王 & 0 candies
+* 0 皮皮, 0 皮可斯 & 0 candies
+* 0 六尾, 0 九尾 & 0 candies
+* 0 波波球, 0 肥波球 & 0 candies
+* 0 波音蝠, 0 大口蝠 & 0 candies
+* 0 行路草, 0 怪味花, 0 霸王花 & 0 candies
+* 0 蘑菇蟲, 0 巨菇蟲 & 0 candies
+* 0 毛毛蟲, 0 魔魯風 & 0 candies
+* 0 地鼠, 0 三頭地鼠 & 0 candies
+* 0 喵喵怪, 0 高竇貓 & 0 candies
+* 0 傻鴨, 0 高超鴨 & 0 candies
+* 0 猴怪, 0 火爆猴 & 0 candies
+* 0 護主犬, 0 奉神犬 & 0 candies
+* 0 蚊香蝌蚪, 0 蚊香蛙, 0 大力蛙 & 0 candies
+* 0 卡斯, 0 尤基納, 0 富迪 & 0 candies
+* 0 鐵腕, 0 大力, 0 怪力 & 0 candies
+* 0 喇叭芽, 0 口呆花, 0 大食花 & 0 candies
+* 0 大眼水母, 0 多腳水母 & 0 candies
+* 0 小拳石, 0 滾動石, 0 滾動岩 & 0 candies
+* 0 小火馬, 0 烈焰馬 & 0 candies
+* 0 小呆獸, 0 大呆獸 & 0 candies
+* 0 小磁怪, 0 三合一磁怪 & 0 candies
+* 0 多多, 0 多多利 & 0 candies
+* 0 小海獅, 0 白海獅 & 0 candies
+* 0 爛泥怪, 0 爛泥獸 & 0 candies
+* 0 貝殼怪, 0 鐵甲貝 & 0 candies
+* 1 鬼斯, 0 鬼斯通, 0 耿鬼 & 3 candies
+* 0 食夢獸, 0 催眠獸 & 0 candies
+* 0 大鉗蟹, 0 巨鉗蟹 & 0 candies
+* 0 霹靂蛋, 0 雷霆蛋 & 0 candies
+* 1 蛋蛋, 0 椰樹獸 & 3 candies
+* 0 卡拉卡拉, 0 格拉格拉 & 0 candies
+* 0 毒氣丸, 0 毒氣雙子 & 0 candies
+* 0 鐵甲犀牛, 0 鐵甲暴龍 & 0 candies
+* 0 噴墨海馬, 0 飛刺海馬 & 0 candies
+* 2 獨角金魚, 0 金魚王 & 6 candies
+* 0 海星星, 0 寶石海星 & 0 candies
+* 0 鯉魚王, 0 鯉魚龍 & 0 candies
+* 0 伊貝, 0 水伊貝, 0 雷伊貝, 0 火伊貝 & 0 candies
+* 0 菊石獸, 0 多刺菊石獸 & 0 candies
+* 0 萬年蟲, 0 鐮刀蟲 & 0 candies
+* 0 迷你龍, 0 哈古龍, 0 啟暴龍 & 0 candies

@@ -1,0 +1,144 @@
+= Evoleval report for inventory-test2
+
+== Evolution actions
+
+2 evolutions available, 26 seconds per, 52 seconds total, use 0.03 eggs
+
+|===
+|Pokemon|Transfer|Evolve|Missing
+
+|Bulbasaur
+|0
+|0
+|0
+
+|Charmander
+|0
+|0
+|0
+
+|Caterpie
+|2
+|0
+|0
+
+|Weedle
+|1
+|1
+|0
+
+|Pidgey
+|3
+|1
+|0
+
+|Rattata
+|1
+|0
+|0
+
+|Gastly
+|0
+|0
+|0
+
+|Exeggcute
+|0
+|0
+|0
+
+|Goldeen
+|1
+|0
+|0
+|===
+
+== Pokemon details
+
+* Bulbasaur
+** (0.24) A/D/S=6/5/0 CP=12
+* Charmander
+** (0.67) A/D/S=10/10/10 CP=12
+* Caterpie
+** (0.49) A/D/S=7/13/2 CP=10
+** (0.44) A/D/S=2/9/9 CP=10
+** (0.29) A/D/S=0/4/9 CP=14
+* Weedle
+** (0.62) A/D/S=10/14/4 CP=10
+** (0.42) A/D/S=0/15/4 CP=25
+** (0.31) A/D/S=2/8/4 CP=35
+* Kakuna
+** (0.56) A/D/S=8/13/4 CP=10
+* Pidgey
+** (0.42) A/D/S=1/8/10 CP=24
+** (0.38) A/D/S=2/11/4 CP=24
+** (0.36) A/D/S=5/9/2 CP=10
+** (0.36) A/D/S=8/4/4 CP=59
+** (0.27) A/D/S=1/6/5 CP=39
+* Rattata
+** (0.42) A/D/S=11/4/4 CP=36
+** (0.36) A/D/S=9/6/1 CP=35
+* Gastly
+** (0.84) A/D/S=13/12/13 CP=10
+* Exeggcute
+** (0.73) A/D/S=10/12/11 CP=45
+* Goldeen
+** (0.73) A/D/S=6/14/13 CP=39
+** (0.62) A/D/S=13/7/8 CP=39
+
+== Pokemon bag inventory
+
+* 1 Bulbasaur, 0 Ivysaur, 0 Venusaur & 3 candies
+* 1 Charmander, 0 Charmeleon, 0 Charizard & 3 candies
+* 0 Squirtle, 0 Wartortle, 0 Blastoise & 0 candies
+* 3 Caterpie, 0 Metapod, 0 Butterfree & 9 candies
+* 3 Weedle, 1 Kakuna, 0 Beedrill & 12 candies
+* 5 Pidgey, 0 Pidgeotto, 0 Pidgeot & 15 candies
+* 2 Rattata, 0 Raticate & 6 candies
+* 0 Spearow, 0 Fearow & 0 candies
+* 0 Ekans, 0 Arbok & 0 candies
+* 0 Pikachu, 0 Raichu & 0 candies
+* 0 Sandshrew, 0 Sandslash & 0 candies
+* 0 Nidoran F, 0 Nidorina, 0 Nidoqueen & 0 candies
+* 0 Nidoran M, 0 Nidorino, 0 Nidoking & 0 candies
+* 0 Clefairy, 0 Clefable & 0 candies
+* 0 Vulpix, 0 Ninetales & 0 candies
+* 0 Jigglypuff, 0 Wigglytuff & 0 candies
+* 0 Zubat, 0 Golbat & 0 candies
+* 0 Oddish, 0 Gloom, 0 Vileplume & 0 candies
+* 0 Paras, 0 Parasect & 0 candies
+* 0 Venonat, 0 Venomoth & 0 candies
+* 0 Diglett, 0 Dugtrio & 0 candies
+* 0 Meowth, 0 Persian & 0 candies
+* 0 Psyduck, 0 Golduck & 0 candies
+* 0 Mankey, 0 Primeape & 0 candies
+* 0 Growlithe, 0 Arcanine & 0 candies
+* 0 Poliwag, 0 Poliwhirl, 0 Poliwrath & 0 candies
+* 0 Abra, 0 Kadabra, 0 Alakazam & 0 candies
+* 0 Machop, 0 Machoke, 0 Machamp & 0 candies
+* 0 Bellsprout, 0 Weepinbell, 0 Victreebel & 0 candies
+* 0 Tentacool, 0 Tentacruel & 0 candies
+* 0 Geodude, 0 Graveler, 0 Golem & 0 candies
+* 0 Ponyta, 0 Rapidash & 0 candies
+* 0 Slowpoke, 0 Slowbro & 0 candies
+* 0 Magnemite, 0 Magneton & 0 candies
+* 0 Doduo, 0 Dodrio & 0 candies
+* 0 Seel, 0 Dewgong & 0 candies
+* 0 Grimer, 0 Muk & 0 candies
+* 0 Shellder, 0 Cloyster & 0 candies
+* 1 Gastly, 0 Haunter, 0 Gengar & 3 candies
+* 0 Drowzee, 0 Hypno & 0 candies
+* 0 Krabby, 0 Kingler & 0 candies
+* 0 Voltorb, 0 Electrode & 0 candies
+* 1 Exeggcute, 0 Exeggutor & 3 candies
+* 0 Cubone, 0 Marowak & 0 candies
+* 0 Koffing, 0 Weezing & 0 candies
+* 0 Rhyhorn, 0 Rhydon & 0 candies
+* 0 Horsea, 0 Seadra & 0 candies
+* 2 Goldeen, 0 Seaking & 6 candies
+* 0 Staryu, 0 Starmie & 0 candies
+* 0 Magikarp, 0 Gyarados & 0 candies
+* 0 Eevee, 0 Vaporeon, 0 Jolteon, 0 Flareon & 0 candies
+* 0 Omanyte, 0 Omastar & 0 candies
+* 0 Kabuto, 0 Kabutops & 0 candies
+* 0 Dratini, 0 Dragonair, 0 Dragonite & 0 candies

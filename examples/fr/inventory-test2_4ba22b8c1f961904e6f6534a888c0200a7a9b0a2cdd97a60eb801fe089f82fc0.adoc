@@ -1,0 +1,144 @@
+= Evoleval report for inventory-test2
+
+== Evolution actions
+
+2 evolutions available, 26 seconds per, 52 seconds total, use 0.03 eggs
+
+|===
+|Pokemon|Transfer|Evolve|Missing
+
+|Bulbizarre
+|0
+|0
+|0
+
+|Salamèche
+|0
+|0
+|0
+
+|Chenipan
+|2
+|0
+|0
+
+|Aspicot
+|1
+|1
+|0
+
+|Roucool
+|3
+|1
+|0
+
+|Rattata
+|1
+|0
+|0
+
+|Fantominus
+|0
+|0
+|0
+
+|Nœunœuf
+|0
+|0
+|0
+
+|Poissirène
+|1
+|0
+|0
+|===
+
+== Pokemon details
+
+* Bulbizarre
+** (0.24) A/D/S=6/5/0 CP=12
+* Salamèche
+** (0.67) A/D/S=10/10/10 CP=12
+* Chenipan
+** (0.49) A/D/S=7/13/2 CP=10
+** (0.44) A/D/S=2/9/9 CP=10
+** (0.29) A/D/S=0/4/9 CP=14
+* Aspicot
+** (0.62) A/D/S=10/14/4 CP=10
+** (0.42) A/D/S=0/15/4 CP=25
+** (0.31) A/D/S=2/8/4 CP=35
+* Coconfort
+** (0.56) A/D/S=8/13/4 CP=10
+* Roucool
+** (0.42) A/D/S=1/8/10 CP=24
+** (0.38) A/D/S=2/11/4 CP=24
+** (0.36) A/D/S=5/9/2 CP=10
+** (0.36) A/D/S=8/4/4 CP=59
+** (0.27) A/D/S=1/6/5 CP=39
+* Rattata
+** (0.42) A/D/S=11/4/4 CP=36
+** (0.36) A/D/S=9/6/1 CP=35
+* Fantominus
+** (0.84) A/D/S=13/12/13 CP=10
+* Nœunœuf
+** (0.73) A/D/S=10/12/11 CP=45
+* Poissirène
+** (0.73) A/D/S=6/14/13 CP=39
+** (0.62) A/D/S=13/7/8 CP=39
+
+== Pokemon bag inventory
+
+* 1 Bulbizarre, 0 Herbizarre, 0 Florizarre & 3 candies
+* 1 Salamèche, 0 Reptincel, 0 Dracaufeu & 3 candies
+* 0 Carapuce, 0 Carabaffe, 0 Tortank & 0 candies
+* 3 Chenipan, 0 Chrysacier, 0 Papilusion & 9 candies
+* 3 Aspicot, 1 Coconfort, 0 Dardargnan & 12 candies
+* 5 Roucool, 0 Roucoups, 0 Roucarnage & 15 candies
+* 2 Rattata, 0 Rattatac & 6 candies
+* 0 Piafabec, 0 Rapasdepic & 0 candies
+* 0 Abo, 0 Arbok & 0 candies
+* 0 Pikachu, 0 Raichu & 0 candies
+* 0 Sabelette, 0 Sablaireau & 0 candies
+* 0 Nidoran F, 0 Nidorina, 0 Nidoqueen & 0 candies
+* 0 Nidoran M, 0 Nidorino, 0 Nidoking & 0 candies
+* 0 Mélofée, 0 Mélodelfe & 0 candies
+* 0 Goupix, 0 Feunard & 0 candies
+* 0 Rondoudou, 0 Grodoudou & 0 candies
+* 0 Nosferapti, 0 Nosferalto & 0 candies
+* 0 Mystherbe, 0 Ortide, 0 Rafflesia & 0 candies
+* 0 Paras, 0 Parasect & 0 candies
+* 0 Mimitoss, 0 Aéromite & 0 candies
+* 0 Taupiqueur, 0 Triopikeur & 0 candies
+* 0 Miaouss, 0 Persian & 0 candies
+* 0 Psykokwak, 0 Akwakwak & 0 candies
+* 0 Férosinge, 0 Colossinge & 0 candies
+* 0 Caninos, 0 Arcanin & 0 candies
+* 0 Ptitard, 0 Têtarte, 0 Tartard & 0 candies
+* 0 Abra, 0 Kadabra, 0 Alakazam & 0 candies
+* 0 Machoc, 0 Machopeur, 0 Mackogneur & 0 candies
+* 0 Chétiflor, 0 Boustiflor, 0 Empiflor & 0 candies
+* 0 Tentacool, 0 Tentacruel & 0 candies
+* 0 Racaillou, 0 Gravalanch, 0 Grolem & 0 candies
+* 0 Ponyta, 0 Galopa & 0 candies
+* 0 Ramoloss, 0 Flagadoss & 0 candies
+* 0 Magnéti, 0 Magnéton & 0 candies
+* 0 Doduo, 0 Dodrio & 0 candies
+* 0 Otaria, 0 Lamantine & 0 candies
+* 0 Tadmorv, 0 Grotadmorv & 0 candies
+* 0 Kokiyas, 0 Crustabri & 0 candies
+* 1 Fantominus, 0 Spectrum, 0 Ectoplasma & 3 candies
+* 0 Soporifik, 0 Hypnomade & 0 candies
+* 0 Krabby, 0 Krabboss & 0 candies
+* 0 Voltorbe, 0 Électrode & 0 candies
+* 1 Nœunœuf, 0 Noadkoko & 3 candies
+* 0 Osselait, 0 Ossatueur & 0 candies
+* 0 Smogo, 0 Smogogo & 0 candies
+* 0 Rhinocorne, 0 Rhinoféros & 0 candies
+* 0 Hypotrempe, 0 Hypocéan & 0 candies
+* 2 Poissirène, 0 Poissoroy & 6 candies
+* 0 Stari, 0 Staross & 0 candies
+* 0 Magicarpe, 0 Léviator & 0 candies
+* 0 Évoli, 0 Aquali, 0 Voltali, 0 Pyroli & 0 candies
+* 0 Amonita, 0 Amonistar & 0 candies
+* 0 Kabuto, 0 Kabutops & 0 candies
+* 0 Minidraco, 0 Draco, 0 Dracolosse & 0 candies

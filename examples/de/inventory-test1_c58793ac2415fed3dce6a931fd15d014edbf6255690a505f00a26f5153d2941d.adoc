@@ -1,0 +1,660 @@
+= Evoleval report for inventory-test1
+
+== Evolution actions
+
+66 evolutions available, 26 seconds per, 1716 seconds total, use 0.95 eggs
+
+|===
+|Pokemon|Transfer|Evolve|Missing
+
+|Bisasam
+|0
+|1
+|0
+
+|Glumanda
+|0
+|0
+|0
+
+|Schiggy
+|0
+|1
+|0
+
+|Raupy
+|0
+|0
+|0
+
+|Hornliu
+|0
+|16
+|0
+
+|Taubsi
+|0
+|2
+|0
+
+|Rattfratz
+|0
+|6
+|0
+
+|Habitak
+|0
+|2
+|0
+
+|Rettan
+|0
+|2
+|0
+
+|Pikachu
+|1
+|0
+|0
+
+|Sandan
+|0
+|0
+|0
+
+|Nidoran F
+|0
+|5
+|1
+
+|Nidoran M
+|0
+|3
+|2
+
+|Piepi
+|0
+|0
+|0
+
+|Vulpix
+|0
+|0
+|0
+
+|Pummeluff
+|0
+|0
+|0
+
+|Zubat
+|0
+|1
+|0
+
+|Myrapla
+|0
+|1
+|0
+
+|Paras
+|0
+|2
+|0
+
+|Bluzuk
+|1
+|1
+|0
+
+|Digda
+|0
+|0
+|0
+
+|Mauzi
+|0
+|1
+|0
+
+|Enton
+|0
+|2
+|0
+
+|Menki
+|0
+|0
+|0
+
+|Fukano
+|0
+|0
+|0
+
+|Quapsel
+|2
+|5
+|0
+
+|Abra
+|0
+|0
+|0
+
+|Machollo
+|0
+|0
+|0
+
+|Knofensa
+|0
+|3
+|1
+
+|Tentacha
+|0
+|0
+|0
+
+|Kleinstein
+|0
+|1
+|0
+
+|Ponita
+|0
+|0
+|0
+
+|Flegmon
+|0
+|0
+|0
+
+|Magnetilo
+|0
+|0
+|0
+
+|Dodu
+|0
+|0
+|0
+
+|Jurob
+|0
+|0
+|0
+
+|Sleima
+|0
+|0
+|0
+
+|Muschas
+|0
+|1
+|0
+
+|Nebulak
+|1
+|0
+|0
+
+|Traumato
+|0
+|2
+|0
+
+|Krabby
+|0
+|3
+|0
+
+|Voltobal
+|0
+|0
+|0
+
+|Owei
+|1
+|0
+|0
+
+|Tragosso
+|0
+|0
+|0
+
+|Smogon
+|0
+|0
+|0
+
+|Rihorn
+|0
+|1
+|0
+
+|Seeper
+|0
+|0
+|0
+
+|Goldini
+|0
+|0
+|0
+
+|Sterndu
+|0
+|2
+|1
+
+|Karpador
+|2
+|0
+|0
+
+|Evoli
+|4
+|1
+|0
+
+|Amonitas
+|0
+|0
+|0
+
+|Dratini
+|0
+|1
+|0
+|===
+
+== Pokemon details
+
+* Bisasam
+** (0.71) A/D/S=10/12/10 CP=570
+* Bisaknosp
+** (0.89) A/D/S=13/12/15 CP=913
+* Glumanda
+** (0.80) A/D/S=13/12/11 CP=520
+* Schiggy
+** (0.47) A/D/S=0/9/12 CP=417
+* Schillok
+** (0.40) A/D/S=0/3/15 CP=674
+* Safcon
+** (0.89) A/D/S=13/15/12 CP=261
+** (0.82) A/D/S=12/11/14 CP=255
+** (0.78) A/D/S=11/11/13 CP=250
+** (0.56) A/D/S=10/14/1 CP=165
+** (0.56) A/D/S=11/14/0 CP=263
+** (0.44) A/D/S=1/15/4 CP=104
+** (0.36) A/D/S=0/13/3 CP=10
+** (0.31) A/D/S=0/2/12 CP=168
+** (0.22) A/D/S=1/4/5 CP=187
+* Smettbo
+** (0.89) A/D/S=15/10/15 CP=818
+* Hornliu
+** (0.82) A/D/S=10/15/12 CP=237
+** (0.58) A/D/S=0/15/11 CP=164
+** (0.51) A/D/S=13/7/3 CP=144
+** (0.47) A/D/S=3/8/10 CP=193
+** (0.47) A/D/S=11/8/2 CP=162
+** (0.47) A/D/S=1/14/6 CP=171
+** (0.44) A/D/S=4/9/7 CP=122
+** (0.40) A/D/S=4/12/2 CP=212
+** (0.36) A/D/S=2/3/11 CP=97
+** (0.33) A/D/S=1/0/14 CP=143
+** (0.31) A/D/S=3/11/0 CP=186
+** (0.27) A/D/S=1/9/2 CP=133
+** (0.27) A/D/S=2/5/5 CP=45
+** (0.27) A/D/S=3/3/6 CP=182
+** (0.20) A/D/S=5/1/3 CP=153
+** (0.18) A/D/S=1/7/0 CP=157
+* Kokuna
+** (0.93) A/D/S=14/14/14 CP=271
+** (0.80) A/D/S=13/13/10 CP=260
+** (0.80) A/D/S=14/10/12 CP=249
+* Bibor
+** (0.16) A/D/S=4/2/1 CP=416
+* Taubsi
+** (0.42) A/D/S=3/15/1 CP=24
+** (0.40) A/D/S=3/8/7 CP=10
+** (0.31) A/D/S=3/1/10 CP=10
+* Tauboga
+** (0.89) A/D/S=15/13/12 CP=686
+** (0.87) A/D/S=13/14/12 CP=679
+** (0.82) A/D/S=13/12/12 CP=674
+** (0.80) A/D/S=10/13/13 CP=664
+** (0.80) A/D/S=12/11/13 CP=669
+** (0.80) A/D/S=12/10/14 CP=669
+** (0.80) A/D/S=10/12/14 CP=664
+** (0.69) A/D/S=3/14/14 CP=667
+** (0.62) A/D/S=1/13/14 CP=654
+** (0.60) A/D/S=1/11/15 CP=244
+** (0.60) A/D/S=4/8/15 CP=502
+** (0.58) A/D/S=0/13/13 CP=615
+** (0.51) A/D/S=4/4/15 CP=494
+** (0.51) A/D/S=1/7/15 CP=641
+** (0.47) A/D/S=3/14/4 CP=397
+** (0.44) A/D/S=1/14/5 CP=544
+** (0.44) A/D/S=3/4/13 CP=111
+** (0.44) A/D/S=4/14/2 CP=581
+** (0.42) A/D/S=2/5/12 CP=483
+** (0.42) A/D/S=0/12/7 CP=360
+** (0.40) A/D/S=5/10/3 CP=549
+** (0.40) A/D/S=4/0/14 CP=545
+** (0.38) A/D/S=2/11/4 CP=390
+** (0.36) A/D/S=4/8/4 CP=693
+** (0.33) A/D/S=2/5/8 CP=655
+** (0.33) A/D/S=5/4/6 CP=331
+** (0.33) A/D/S=3/9/3 CP=508
+** (0.29) A/D/S=5/2/6 CP=388
+** (0.29) A/D/S=5/6/2 CP=688
+** (0.24) A/D/S=1/4/6 CP=168
+** (0.22) A/D/S=5/4/1 CP=384
+** (0.22) A/D/S=5/1/4 CP=679
+** (0.22) A/D/S=3/3/4 CP=352
+** (0.20) A/D/S=2/7/0 CP=436
+** (0.18) A/D/S=4/2/2 CP=496
+** (0.18) A/D/S=1/1/6 CP=404
+** (0.18) A/D/S=2/2/4 CP=228
+* Tauboss
+** (0.67) A/D/S=10/10/10 CP=1130
+* Rattfratz
+** (0.73) A/D/S=10/11/12 CP=273
+** (0.67) A/D/S=7/15/8 CP=292
+** (0.53) A/D/S=9/6/9 CP=158
+** (0.53) A/D/S=7/14/3 CP=280
+** (0.44) A/D/S=6/3/11 CP=291
+** (0.38) A/D/S=11/2/4 CP=289
+* Rattikarl
+** (0.96) A/D/S=14/14/15 CP=817
+** (0.82) A/D/S=11/13/13 CP=793
+** (0.82) A/D/S=9/15/13 CP=788
+** (0.82) A/D/S=12/10/15 CP=797
+** (0.82) A/D/S=10/12/15 CP=792
+** (0.76) A/D/S=9/10/15 CP=821
+** (0.73) A/D/S=10/11/12 CP=819
+* Habitak
+** (0.89) A/D/S=14/13/13 CP=380
+** (0.80) A/D/S=12/9/15 CP=425
+** (0.78) A/D/S=11/15/9 CP=421
+* Ibitak
+** (0.71) A/D/S=13/13/6 CP=854
+* Rettan
+** (0.78) A/D/S=11/14/10 CP=440
+** (0.42) A/D/S=4/10/5 CP=455
+* Arbok
+** (0.31) A/D/S=5/9/0 CP=619
+* Pikachu
+** (0.91) A/D/S=12/14/15 CP=494
+** (0.89) A/D/S=12/13/15 CP=492
+* Sandan
+** (0.78) A/D/S=12/12/11 CP=430
+* Sandamer
+** (0.87) A/D/S=14/10/15 CP=1014
+* Nidoran F
+** (0.93) A/D/S=12/15/15 CP=487
+** (0.80) A/D/S=14/10/12 CP=479
+** (0.78) A/D/S=11/14/10 CP=471
+** (0.62) A/D/S=5/15/8 CP=444
+* Nidorina
+** (0.96) A/D/S=15/14/14 CP=757
+* Nidoran M
+** (0.89) A/D/S=14/13/13 CP=469
+* Nidorino
+** (0.36) A/D/S=3/1/12 CP=510
+* Piepi
+** (0.64) A/D/S=6/10/13 CP=405
+* Vulpix
+** (0.93) A/D/S=15/14/13 CP=468
+* Vulnona
+** (0.49) A/D/S=3/7/12 CP=967
+* Pummeluff
+** (0.78) A/D/S=12/12/11 CP=495
+* Zubat
+** (0.84) A/D/S=11/12/15 CP=347
+* Golbat
+** (0.84) A/D/S=13/12/13 CP=1096
+* Myrapla
+** (0.53) A/D/S=3/10/11 CP=260
+* Duflor
+** (0.91) A/D/S=14/12/15 CP=951
+** (0.84) A/D/S=12/15/11 CP=934
+** (0.56) A/D/S=15/10/0 CP=672
+* Paras
+** (0.78) A/D/S=11/11/13 CP=494
+** (0.76) A/D/S=13/7/14 CP=547
+** (0.69) A/D/S=14/2/15 CP=568
+* Parasek
+** (0.78) A/D/S=14/11/10 CP=963
+* Bluzuk
+** (0.89) A/D/S=13/14/13 CP=572
+** (0.87) A/D/S=15/10/14 CP=574
+** (0.76) A/D/S=12/12/10 CP=528
+* Omot
+** (0.89) A/D/S=15/15/10 CP=1062
+* Digda
+** (0.84) A/D/S=11/15/12 CP=241
+* Mauzi
+** (0.80) A/D/S=12/11/13 CP=409
+* Snobilikat
+** (0.89) A/D/S=14/14/12 CP=868
+* Enton
+** (0.51) A/D/S=2/9/12 CP=640
+** (0.24) A/D/S=1/6/4 CP=341
+* Entoron
+** (0.09) A/D/S=0/0/4 CP=1117
+* Menki
+** (0.78) A/D/S=10/15/10 CP=470
+* Fukano
+** (0.76) A/D/S=10/13/11 CP=722
+* Arkani
+** (0.84) A/D/S=15/12/11 CP=1674
+* Quapsel
+** (0.84) A/D/S=14/10/14 CP=438
+** (0.84) A/D/S=11/15/12 CP=433
+** (0.71) A/D/S=8/13/11 CP=457
+** (0.58) A/D/S=6/13/7 CP=379
+** (0.47) A/D/S=11/2/8 CP=418
+** (0.29) A/D/S=4/0/9 CP=186
+** (0.24) A/D/S=7/3/1 CP=28
+** (0.22) A/D/S=7/3/0 CP=424
+* Quaputzi
+** (0.93) A/D/S=12/15/15 CP=750
+* Quappo
+** (0.33) A/D/S=8/2/5 CP=1368
+* Abra
+** (0.89) A/D/S=10/15/15 CP=329
+* Kadabra
+** (0.87) A/D/S=13/11/15 CP=628
+* Maschock
+** (0.84) A/D/S=12/12/14 CP=976
+* Knofensa
+** (0.87) A/D/S=14/10/15 CP=617
+** (0.76) A/D/S=12/11/11 CP=603
+* Ultrigaria
+** (0.49) A/D/S=8/1/13 CP=1068
+* Tentacha
+** (0.80) A/D/S=11/13/12 CP=488
+* Tentoxa
+** (0.87) A/D/S=14/13/12 CP=1245
+* Kleinstein
+** (0.89) A/D/S=13/13/14 CP=471
+* Georok
+** (0.89) A/D/S=11/15/14 CP=596
+* Gallopa
+** (0.87) A/D/S=14/12/13 CP=1232
+* Flegmon
+** (0.84) A/D/S=14/14/10 CP=679
+* Lahmus
+** (0.80) A/D/S=12/13/11 CP=1368
+* Magnetilo
+** (0.87) A/D/S=15/14/10 CP=487
+* Dodu
+** (0.47) A/D/S=13/4/4 CP=448
+* Dodri
+** (0.29) A/D/S=9/4/0 CP=834
+* Jurob
+** (0.58) A/D/S=10/3/13 CP=606
+* Sleima
+** (0.91) A/D/S=14/15/12 CP=722
+* Muschas
+** (0.78) A/D/S=12/13/10 CP=440
+* Austos
+** (0.93) A/D/S=15/12/15 CP=1164
+* Nebulak
+** (0.67) A/D/S=13/4/13 CP=231
+** (0.38) A/D/S=5/1/11 CP=405
+* Gengar
+** (0.84) A/D/S=13/13/12 CP=1098
+* Onix
+** (0.84) A/D/S=11/13/14 CP=466
+* Traumato
+** (0.82) A/D/S=13/10/14 CP=591
+** (0.82) A/D/S=11/11/15 CP=615
+** (0.78) A/D/S=12/11/12 CP=584
+* Hypno
+** (0.73) A/D/S=9/9/15 CP=1069
+* Krabby
+** (0.96) A/D/S=15/14/14 CP=447
+** (0.89) A/D/S=13/12/15 CP=440
+** (0.69) A/D/S=11/11/9 CP=455
+* Kingler
+** (0.78) A/D/S=11/12/12 CP=999
+* Voltobal
+** (0.73) A/D/S=14/7/12 CP=155
+* Owei
+** (0.64) A/D/S=14/7/8 CP=560
+** (0.53) A/D/S=9/4/11 CP=133
+* Kokowei
+** (0.71) A/D/S=10/11/11 CP=1619
+** (0.71) A/D/S=11/11/10 CP=1460
+* Tragosso
+** (0.60) A/D/S=11/7/9 CP=208
+* Nockchan
+** (0.82) A/D/S=15/9/13 CP=508
+* Schlurp
+** (0.87) A/D/S=14/11/14 CP=910
+* Smogon
+** (0.84) A/D/S=12/13/13 CP=475
+* Rihorn
+** (0.82) A/D/S=11/14/12 CP=645
+* Rizeros
+** (0.60) A/D/S=11/5/11 CP=1085
+* Chaneira
+** (0.82) A/D/S=14/13/10 CP=241
+* Tangela
+** (0.73) A/D/S=11/11/11 CP=1041
+* Seemon
+** (0.87) A/D/S=15/11/13 CP=327
+** (0.73) A/D/S=13/11/9 CP=653
+* Golking
+** (0.91) A/D/S=15/13/13 CP=1154
+** (0.89) A/D/S=13/12/15 CP=1145
+** (0.87) A/D/S=12/12/15 CP=1139
+* Sterndu
+** (0.80) A/D/S=15/11/10 CP=510
+* Starmie
+** (0.49) A/D/S=13/0/9 CP=1046
+* Sichlor
+** (0.69) A/D/S=14/11/6 CP=1075
+* Rossana
+** (0.40) A/D/S=15/0/3 CP=712
+* Elektek
+** (0.89) A/D/S=10/15/15 CP=1359
+* Magmar
+** (0.80) A/D/S=12/11/13 CP=1598
+* Pinsir
+** (0.78) A/D/S=15/15/5 CP=1491
+* Karpador
+** (0.87) A/D/S=14/12/13 CP=63
+** (0.82) A/D/S=14/15/8 CP=144
+** (0.71) A/D/S=14/3/15 CP=131
+* Garados
+** (0.89) A/D/S=12/15/13 CP=1506
+* Lapras
+** (0.73) A/D/S=10/12/11 CP=1800
+* Evoli
+** (0.84) A/D/S=15/8/15 CP=660
+** (0.82) A/D/S=10/15/12 CP=584
+** (0.69) A/D/S=14/13/4 CP=579
+** (0.69) A/D/S=15/3/13 CP=45
+** (0.62) A/D/S=15/7/6 CP=547
+** (0.47) A/D/S=15/1/5 CP=588
+* Aquana
+** (0.84) A/D/S=12/13/13 CP=1256
+* Blitza
+** (0.96) A/D/S=15/13/15 CP=1155
+** (0.89) A/D/S=13/13/14 CP=1200
+* Flamara
+** (0.91) A/D/S=15/11/15 CP=1420
+** (0.84) A/D/S=14/9/15 CP=1777
+* Amoroso
+** (0.91) A/D/S=14/15/12 CP=1257
+* Dratini
+** (0.82) A/D/S=12/14/11 CP=536
+** (0.47) A/D/S=15/4/2 CP=474
+* Dragonir
+** (0.73) A/D/S=15/6/12 CP=624
+
+== Pokemon bag inventory
+
+* 1 Bisasam, 1 Bisaknosp, 0 Bisaflor & 41 candies
+* 1 Glumanda, 0 Glutexo, 0 Glurak & 20 candies
+* 1 Schiggy, 1 Schillok, 0 Turtok & 34 candies
+* 0 Raupy, 9 Safcon, 1 Smettbo & 3 candies
+* 16 Hornliu, 3 Kokuna, 1 Bibor & 196 candies
+* 3 Taubsi, 37 Tauboga, 1 Tauboss & 31 candies
+* 6 Rattfratz, 7 Rattikarl & 174 candies
+* 3 Habitak, 1 Ibitak & 127 candies
+* 2 Rettan, 1 Arbok & 110 candies
+* 2 Pikachu, 0 Raichu & 21 candies
+* 1 Sandan, 1 Sandamer & 24 candies
+* 4 Nidoran F, 1 Nidorina, 0 Nidoqueen & 129 candies
+* 1 Nidoran M, 1 Nidorino, 0 Nidoking & 90 candies
+* 1 Piepi, 0 Pixi & 43 candies
+* 1 Vulpix, 1 Vulnona & 34 candies
+* 1 Pummeluff, 0 Knuddeluff & 37 candies
+* 1 Zubat, 1 Golbat & 58 candies
+* 1 Myrapla, 3 Duflor, 0 Giflor & 41 candies
+* 3 Paras, 1 Parasek & 137 candies
+* 3 Bluzuk, 1 Omot & 73 candies
+* 1 Digda, 0 Digdri & 14 candies
+* 1 Mauzi, 1 Snobilikat & 61 candies
+* 2 Enton, 1 Entoron & 100 candies
+* 1 Menki, 0 Rasaff & 47 candies
+* 1 Fukano, 1 Arkani & 25 candies
+* 8 Quapsel, 1 Quaputzi, 1 Quappo & 138 candies
+* 1 Abra, 1 Kadabra, 0 Simsala & 15 candies
+* 0 Machollo, 1 Maschock, 0 Machomei & 17 candies
+* 2 Knofensa, 1 Ultrigaria, 0 Sarzenia & 90 candies
+* 1 Tentacha, 1 Tentoxa & 47 candies
+* 1 Kleinstein, 1 Georok, 0 Geowaz & 34 candies
+* 0 Ponita, 1 Gallopa & 1 candies
+* 1 Flegmon, 1 Lahmus & 48 candies
+* 1 Magnetilo, 0 Magneton & 14 candies
+* 1 Dodu, 1 Dodri & 42 candies
+* 1 Jurob, 0 Jugong & 48 candies
+* 1 Sleima, 0 Sleimok & 22 candies
+* 1 Muschas, 1 Austos & 55 candies
+* 2 Nebulak, 0 Alpollo, 1 Gengar & 20 candies
+* 3 Traumato, 1 Hypno & 132 candies
+* 3 Krabby, 1 Kingler & 179 candies
+* 1 Voltobal, 0 Lektrobal & 3 candies
+* 2 Owei, 2 Kokowei & 34 candies
+* 1 Tragosso, 0 Knogga & 3 candies
+* 1 Smogon, 0 Smogmog & 35 candies
+* 1 Rihorn, 1 Rizeros & 51 candies
+* 0 Seeper, 2 Seemon & 14 candies
+* 0 Goldini, 3 Golking & 24 candies
+* 1 Sterndu, 1 Starmie & 124 candies
+* 3 Karpador, 1 Garados & 1 candies
+* 6 Evoli, 1 Aquana, 2 Blitza, 2 Flamara & 27 candies
+* 0 Amonitas, 1 Amoroso & 2 candies
+* 0 Kabuto, 0 Kabutops & 0 candies
+* 2 Dratini, 1 Dragonir, 0 Dragoran & 40 candies
