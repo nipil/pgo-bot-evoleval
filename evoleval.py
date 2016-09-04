@@ -25,11 +25,12 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 Author: nipil <https://github.com/nipil>
 """
 
-import json
-import sys
 import os
-import argparse
+import sys
+import json
+import codecs
 import hashlib
+import argparse
 
 
 from operator import itemgetter, attrgetter, methodcaller
@@ -247,7 +248,7 @@ class Evoleval():
 		for p_id in sorted(self.actions.keys()):
 			action = self.actions[p_id]
 			print ""
-			print "|{0}".format(self.localize(p_id))
+			print u"|{0}".format(self.localize(p_id))
 			print "|{0}".format(action["transfer"])
 			print "|{0}".format(action["possible"])
 			print "|{0}".format(action["missing"])
@@ -274,7 +275,7 @@ class Evoleval():
 
 		# redirect stdout to file
 		stdout_backup = sys.stdout
-		sys.stdout = open(target, 'w')
+		sys.stdout = codecs.open(target, 'w', 'utf-8')
 
 		# actual output
 		print "= Evoleval report for {0}".format(base)
@@ -296,9 +297,16 @@ class Evoleval():
 
 if __name__ == '__main__':
 
-	parser = argparse.ArgumentParser(description='Evaluate PokemonGo evolutions')
-	parser.add_argument('pgob_dir', help='PokemonGo-bot instlal directory')
-	parser.add_argument('--locale', action='store', default=None)
+	parser = argparse.ArgumentParser(description='Evaluate PokemonGo evolutions and inventory')
+	parser.add_argument(
+		'pgob_dir',
+		help='PokemonGo-bot install directory')
+	parser.add_argument(
+		'--locale',
+		action='store',
+		default=None,
+		choices=['de','fr','ja','pt_br','ru','zh_cn','zh_hk','zh_tw'],
+		help='select language other than ENGLISH for pokemon names')
 	args = parser.parse_args()
 
 	pgob_web = os.path.join(os.path.normpath(os.path.expandvars(os.path.expanduser(args.pgob_dir))), "web")
