@@ -189,25 +189,41 @@ class Evoleval():
 
 
 	def plan_evolution(self):
+
 		for f_id in sorted(self.families.keys()):
+
 			# setup
 			candies = self.get_family_candies(f_id)
 			p_id_base = self.families[f_id][0]
 			pokes = self.get_pokemon_count(p_id_base)
-			if candies + pokes == 0:
-				continue
 			req = self.get_evolution_requirement(p_id_base)
-			# calculate
-			possible = candies // req
-			delta = possible - pokes
-			# print "=========================="
-			# print "id", p_id_base, "candy", candies, "poke", pokes, "req", req, "delta", delta
-			action = {
-				"possible": possible,
-				"missing": delta if delta > 0 else 0,
-				"transfer": -delta - 1 if delta < 0 else 0,
+
+			# evolve/transfer loop
+			transfered = 0
+			evolve = 0
+			while True:
+				# print "candies", candies, "pokes", pokes, "total", candies + pokes, "req", req, "evolve", evolve, "transfered", transfered
+				if candies >= req and pokes >= 1:
+					# print "evolve"
+					candies -= req
+					pokes -= 1
+					evolve += 1
+				elif candies < req and pokes > 1:
+					transfer = min(pokes - 1, req - candies)
+					# print "transfer", transfer
+					candies += transfer
+					pokes -= transfer
+					transfered += transfer
+				else:
+					# print "nothing more to do"
+					break
+
+			# store action
+			self.actions[p_id_base] = {
+				"possible": evolve,
+				"missing": candies // req,
+				"transfer": transfered,
 			}
-			self.actions[p_id_base] = action
 
 
 	def print_pokemons(self):
