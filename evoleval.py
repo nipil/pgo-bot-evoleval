@@ -292,7 +292,9 @@ class Evoleval():
 		print "|==="
 
 
-	def get_inv_hash(self, hasher=hashlib.sha256(), blocksize=65536):
+	def get_inv_hash(self, hasher=None, blocksize=65536):
+		if hasher is None:
+			hasher = hashlib.sha256()
 		with open(self.sp_inv, 'rb') as inv_file:
 			buf = inv_file.read(blocksize)
 			while len(buf) > 0:
