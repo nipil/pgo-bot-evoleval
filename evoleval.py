@@ -72,7 +72,7 @@ class Evoleval():
 		return d
 
 
-	def __init__(self, inventory_file, locale):
+	def __init__(self, inventory_file, args):
 		# init datastores
 		self.pokemon_bag = {}
 		self.names = {}
@@ -81,14 +81,16 @@ class Evoleval():
 		self.candies = {}
 		self.planning = {}
 		self.actions = {}
-		self.locale = locale
+		self.locale = args.locale
+		self.egg_time = args.egg_time
+		self.evolve_time = args.evolve_time
 		# paths
 		self.sp_inv = os.path.normpath(os.path.expandvars(os.path.expanduser(inventory_file)))
 		self.sp_ref = os.path.normpath(os.path.join(os.path.dirname(self.sp_inv), '../data/pokemon.json'))
 		if self.locale is None:
 			self.sp_loc = None
 		else:
-			self.sp_loc = os.path.normpath(os.path.join(os.path.dirname(self.sp_inv), '../data/locales/{0}.json'.format(locale)))
+			self.sp_loc = os.path.normpath(os.path.join(os.path.dirname(self.sp_inv), '../data/locales/{0}.json'.format(self.locale)))
 
 
 	def add_candy(self, data):
@@ -241,9 +243,10 @@ class Evoleval():
 		print "\n== Evolution actions\n"
 
 		n = sum([ action["possible"] for i, action in self.actions.items() ])
-		dt = 26
+
+		dt = self.evolve_time
 		t = n * dt
-		e = float(t / 1800.0)
+		e = float(t / (self.egg_time * 60))
 		print "{0} evolutions available, {1} seconds per, {2} seconds total, use {3:.2f} eggs".format(n, dt, t, e)
 
 		print "\n|==="
@@ -327,14 +330,35 @@ class Evoleval():
 
 if __name__ == '__main__':
 
+	def verify_strictly_positive(value):
+		ivalue = int(value)
+		if ivalue <= 0:
+			raise argparse.ArgumentTypeError("%s must be a strictly positive integer" % value)
+		return ivalue
+
 	parser = argparse.ArgumentParser(description='Evaluate PokemonGo evolutions and inventory')
 	parser.add_argument(
 		'pgob_dir',
 		help='PokemonGo-bot install directory')
 	parser.add_argument(
+		'--evolve-time',
+		action='store',
+		default=26,
+		metavar='Nsec',
+		type=verify_strictly_positive,
+		help='duration of a FULL evolution (animation + menu)')
+	parser.add_argument(
+		'--egg-time',
+		action='store',
+		default=30,
+		metavar='Nmin',
+		type=verify_strictly_positive,
+		help='duration of a lucky-egg (in minutes)')
+	parser.add_argument(
 		'--locale',
 		action='store',
 		default=None,
+		metavar='LANG',
 		choices=['de','fr','ja','pt_br','ru','zh_cn','zh_hk','zh_tw'],
 		help='select language other than ENGLISH for pokemon names')
 	args = parser.parse_args()
@@ -345,7 +369,7 @@ if __name__ == '__main__':
 		p = os.path.splitext(file)
 		if p[1] == '.json' and p[0].startswith('inventory-'):
 			p_inv = os.path.join(pgob_web, file)
-			ee = Evoleval(p_inv, args.locale)
+			ee = Evoleval(p_inv, args)
 			ee.run()
 
 	print "Now convert the ascidoctor reports (*.adoc) to HTML using the following command: asciidoctor *.adoc"
