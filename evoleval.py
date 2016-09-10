@@ -246,7 +246,7 @@ class Evoleval():
 
 		dt = self.evolve_time
 		t = n * dt
-		e = float(t / (self.egg_time * 60))
+		e = float(t / float(self.egg_time * 60.0))
 		print "{0} evolutions available, {1} seconds per, {2} seconds total, use {3:.2f} eggs".format(n, dt, t, e)
 
 		print "\n|==="
