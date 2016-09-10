@@ -72,7 +72,7 @@ class Evoleval():
 		return d
 
 
-	def __init__(self, inventory_file, args):
+	def __init__(self, inventory_file, locale, egg_time, evolve_time):
 		# init datastores
 		self.pokemon_bag = {}
 		self.names = {}
@@ -81,9 +81,9 @@ class Evoleval():
 		self.candies = {}
 		self.planning = {}
 		self.actions = {}
-		self.locale = args.locale
-		self.egg_time = args.egg_time
-		self.evolve_time = args.evolve_time
+		self.locale = locale
+		self.egg_time = egg_time
+		self.evolve_time = evolve_time
 		# paths
 		self.sp_inv = os.path.normpath(os.path.expandvars(os.path.expanduser(inventory_file)))
 		self.sp_ref = os.path.normpath(os.path.join(os.path.dirname(self.sp_inv), '../data/pokemon.json'))
@@ -293,7 +293,7 @@ class Evoleval():
 
 
 	def get_inv_hash(self, hasher=hashlib.sha256(), blocksize=65536):
-		with open(p_inv, 'rb') as inv_file:
+		with open(self.sp_inv, 'rb') as inv_file:
 			buf = inv_file.read(blocksize)
 			while len(buf) > 0:
 				hasher.update(buf)
@@ -332,50 +332,65 @@ class Evoleval():
 		self.output_report()
 
 
-if __name__ == '__main__':
+class App():
 
+	@staticmethod
 	def verify_strictly_positive(value):
 		ivalue = int(value)
 		if ivalue <= 0:
 			raise argparse.ArgumentTypeError("%s must be a strictly positive integer" % value)
 		return ivalue
 
-	parser = argparse.ArgumentParser(description='Evaluate PokemonGo evolutions and inventory')
-	parser.add_argument(
-		'pgob_dir',
-		help='PokemonGo-bot install directory')
-	parser.add_argument(
-		'--evolve-time',
-		action='store',
-		default=26,
-		metavar='Nsec',
-		type=verify_strictly_positive,
-		help='duration of a FULL evolution (animation + menu)')
-	parser.add_argument(
-		'--egg-time',
-		action='store',
-		default=30,
-		metavar='Nmin',
-		type=verify_strictly_positive,
-		help='duration of a lucky-egg (in minutes)')
-	parser.add_argument(
-		'--locale',
-		action='store',
-		default=None,
-		metavar='LANG',
-		choices=['de','fr','ja','pt_br','ru','zh_cn','zh_hk','zh_tw'],
-		help='select language other than ENGLISH for pokemon names')
-	args = parser.parse_args()
+	def __init__(self):
+		self.parser = argparse.ArgumentParser(description='Evaluate PokemonGo evolutions and inventory')
+		self.parser.add_argument(
+			'pgob_dir',
+			help='PokemonGo-bot install directory')
+		self.parser.add_argument(
+			'--evolve-time',
+			action='store',
+			default=26,
+			metavar='Nsec',
+			type=App.verify_strictly_positive,
+			help='duration of a FULL evolution (animation + menu)')
+		self.parser.add_argument(
+			'--egg-time',
+			action='store',
+			default=30,
+			metavar='Nmin',
+			type=App.verify_strictly_positive,
+			help='duration of a lucky-egg (in minutes)')
+		self.parser.add_argument(
+			'--locale',
+			action='store',
+			default=None,
+			metavar='LANG',
+			choices=['de','fr','ja','pt_br','ru','zh_cn','zh_hk','zh_tw'],
+			help='select language other than ENGLISH for pokemon names')
 
-	pgob_web = os.path.join(os.path.normpath(os.path.expandvars(os.path.expanduser(args.pgob_dir))), "web")
+	def run(self):
+		self.args = self.parser.parse_args()
+		self.pgob_web = os.path.join(
+			os.path.normpath(
+				os.path.expandvars(
+					os.path.expanduser(self.args.pgob_dir))),
+			"web")
+		for file in os.listdir(self.pgob_web):
+			p = os.path.splitext(file)
+			if p[1] == '.json' and p[0].startswith('inventory-'):
+				p_inv = os.path.join(self.pgob_web, file)
+				ee = Evoleval(
+					p_inv,
+					self.args.locale,
+					self.args.egg_time,
+					self.args.evolve_time)
+				ee.run()
+		print "Now convert the reports (*.adoc) to HTML using: asciidoctor *.adoc"
 
-	for file in os.listdir(pgob_web):
-		p = os.path.splitext(file)
-		if p[1] == '.json' and p[0].startswith('inventory-'):
-			p_inv = os.path.join(pgob_web, file)
-			ee = Evoleval(p_inv, args)
-			ee.run()
 
-	print "Now convert the ascidoctor reports (*.adoc) to HTML using the following command: asciidoctor *.adoc"
+if __name__ == '__main__':
+
+	app = App()
+	app.run()
 
 	sys.exit(0)
