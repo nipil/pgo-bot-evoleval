@@ -185,7 +185,7 @@ class Evoleval():
 						self.add_pokemon(poke)
 		# sort pokemons according to perfection
 		for id, pokes in self.pokemon_bag.items():
-			self.pokemon_bag[id] = sorted(pokes, key=attrgetter('iv_p'), reverse=True)
+			self.pokemon_bag[id] = sorted(pokes, key=attrgetter('iv_p', 'cur_cp'), reverse=True)
 
 
 	def plan_evolution(self):
