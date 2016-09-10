@@ -237,20 +237,6 @@ class Evoleval():
 					poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
 
 
-	def print_resources(self):
-		print "\n== Pokemon bag inventory\n"
-		for f_id in sorted(self.families.keys()):
-			f_p_ids = self.families[f_id]
-			bag = []
-			for p_id in sorted(f_p_ids):
-				bag.append(u"{0} {1}".format(
-					self.get_pokemon_count(p_id),
-					self.localize(p_id)))
-			print u"* {0} & {1} candies".format(
-				", ".join(bag),
-				self.get_family_candies(f_id))
-
-
 	def print_actions(self):
 		print "\n== Evolution actions\n"
 
@@ -326,7 +312,6 @@ class Evoleval():
 		print "= Evoleval report for {0}".format(base)
 		self.print_actions()
 		self.print_pokemons()
-		self.print_resources()
 
 		# restore default stdout
 		sys.stdout = stdout_backup
