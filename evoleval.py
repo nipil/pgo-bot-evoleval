@@ -260,6 +260,10 @@ class Evoleval():
 				pass
 			print ""
 
+			# only display if there is something interesting
+			if action["transfer"] + action["possible"] + action["missing"] == 0:
+				continue
+
 			# display pokemon amount, name and candies
 			print u"a|{0} {1} (#{2})\n".format(
 				self.get_pokemon_count(action["pid"]),
