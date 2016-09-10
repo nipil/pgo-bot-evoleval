@@ -270,36 +270,31 @@ class Evoleval():
 			except KeyError:
 				pass
 			print ""
+
+			# display pokemon amount, name and candies
 			print u"a|{0} {1} (#{2})\n".format(
 				self.get_pokemon_count(action["pid"]),
 				self.localize(action["pid"]),
 				action["pid"])
 			print "{0} candies".format(self.get_family_candies(f_id))
 
-			if len(pokes) > 0:
-				print ""
-				for poke in pokes:
-					print "* ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
-						poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
-				print ""
-
+			# display transfer summary and details
 			print "a|{0} transfer".format(action["transfer"])
 			if action["transfer"] > 0:
 				print ""
 				for poke in pokes[-action["transfer"]:]:
-					print "* ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
-						poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
+					print "* ({0:.2f}) CP={1}".format(poke.iv_p, poke.cur_cp)
 				print ""
 
+			# display evolution summary and details
 			print "a|{0} evolution\n".format(action["possible"])
 			if action["possible"] > 0:
 				print ""
 				for poke in pokes[:action["possible"]]:
-					print "* ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
-						poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
+					print "* ({0:.2f}) CP={1}".format(poke.iv_p, poke.cur_cp)
 				print ""
 
-
+			# notify of missing pokemons
 			print "|{0} missing".format(action["missing"])
 		print "|==="
 
