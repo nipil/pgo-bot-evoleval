@@ -15,8 +15,17 @@ You will get a bunch of files appearing in the current folder with the extension
 
 Open these `.html` files in you browser and get the information !
 
+# Customize
 
-# Pre-requisites
+Look at the command-line `--help` to see what is available.
+
+Most importantly, you can (should ?) configure the duration it takes to evolve a pokemon *on the device used to do the batch of evolutions*. That duration must equal the **animation time + the time spent in menus** needed to start the next one. As an example, on my phone, the full cycle requires 26 seconds, which is used as a default for the `--evolve-time` parameter (in seconds)
+
+You can select the languate used for the *names of the pokemons* : use the `--locale` with one of the accepted values to select desired language (english is selected by default)
+
+And if Niantic ever changes the duration of the Lucky Egg, you may configure it using the `--egg-time` parameter (in minutes)
+
+# Prerequisites
 
 ## Do once :
 
@@ -54,7 +63,7 @@ Text after modification
             return
             config_changed = check_mod(config_file)
 
-Modifying `pokecli.py` ensures that the bot does not run and does not do any actions, except connecting to the account, getting inventory and stuff, and disconnecting. That way, the bot does not do any action, no catching, no walking, nothing.
+Modifying `pokecli.py` ensures that the bot does not run and **does not do any actions**, except connecting to the account, getting inventory and stuff, and disconnecting. That way, the bot does not do any action, **no catching, no walking, nothing is done**.
 
 ## Refresh data
 
