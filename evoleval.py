@@ -219,7 +219,8 @@ class Evoleval():
 					break
 
 			# store action
-			self.actions[p_id_base] = {
+			self.actions[f_id] = {
+				"pid": p_id_base,
 				"possible": evolve,
 				"missing": candies // req,
 				"transfer": transfered,
@@ -261,14 +262,47 @@ class Evoleval():
 
 		print "\n|==="
 		print "|Pokemon|Transfer|Evolve|Missing"
-		for p_id in sorted(self.actions.keys()):
-			action = self.actions[p_id]
+		for f_id in sorted(self.actions.keys()):
+			action = self.actions[f_id]
+			p_id = action["pid"]
+			try:
+				pokes = self.pokemon_bag[p_id]
+			except KeyError:
+				pass
 			print ""
-			print u"|{0}".format(self.localize(p_id))
-			print "|{0}".format(action["transfer"])
-			print "|{0}".format(action["possible"])
-			print "|{0}".format(action["missing"])
+			print u"a|{0} {1} (#{2})\n".format(
+				self.get_pokemon_count(action["pid"]),
+				self.localize(action["pid"]),
+				action["pid"])
+			print "{0} candies".format(self.get_family_candies(f_id))
+
+			if len(pokes) > 0:
+				print ""
+				for poke in pokes:
+					print "* ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
+						poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
+				print ""
+
+			print "a|{0} transfer".format(action["transfer"])
+			if action["transfer"] > 0:
+				print ""
+				for poke in pokes[-action["transfer"]:]:
+					print "* ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
+						poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
+				print ""
+
+			print "a|{0} evolution\n".format(action["possible"])
+			if action["possible"] > 0:
+				print ""
+				for poke in pokes[:action["possible"]]:
+					print "* ({3:.2f}) A/D/S={0}/{1}/{2} CP={4}".format(
+						poke.iv_a, poke.iv_d, poke.iv_s, poke.iv_p, poke.cur_cp)
+				print ""
+
+
+			print "|{0} missing".format(action["missing"])
 		print "|==="
+
 
 	def get_inv_hash(self, hasher=hashlib.sha256(), blocksize=65536):
 		with open(p_inv, 'rb') as inv_file:
