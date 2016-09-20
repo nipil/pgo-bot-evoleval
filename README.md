@@ -36,6 +36,13 @@ And if Niantic ever changes the duration of the Lucky Egg, you may configure it 
 
 Refer to that project documentation if you have any problem.
 
+Deactivate sleep schedule so that you don't wait when getting your data :
+
+* edit `config/config.json`
+* find the section named `"sleep_schedule"`
+* edit the `"enable"` line just below it
+* replace `true` with `false`
+
 ## Do every once in a while (get PokemonGo-bot updates)
 
 * go inside pgo-bot directory
